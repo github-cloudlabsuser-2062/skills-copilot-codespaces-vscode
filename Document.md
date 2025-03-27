@@ -8,14 +8,14 @@ The application follows a typical MVC (Model-View-Controller) architecture. Belo
 
 ```mermaid
 graph TD
-    A[Client] -->|HTTP Request| B[Controller]
+    A[Client] -->|HTTP Request| B[Controller]c
     B -->|Processes Request| C[Model]
     C -->|Fetches Data| D[Database]
     C -->|Returns Data| B
     B -->|Sends Response| A
 ```
 
-## Workflow
+## Workflow.
 
 The workflow of the application is illustrated below:
 
